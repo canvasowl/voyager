@@ -16,6 +16,14 @@ class CreatePlanetsTable extends Migration {
 		{
 			$table->increments('id');
             $table->string('name');
+            $table->string('img');
+            $table->integer('diameter');
+            $table->integer('radius');
+            $table->string('type');
+            $table->integer('gravity');
+            $table->integer('distance_from_sun');
+            $table->integer('orbital_period');
+            $table->boolean('ring');
 			$table->timestamps();
 		});
 	}
