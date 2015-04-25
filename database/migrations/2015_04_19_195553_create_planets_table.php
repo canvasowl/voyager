@@ -22,7 +22,7 @@ class CreatePlanetsTable extends Migration {
             $table->string('type');
             $table->double('gravity');
             $table->integer('distance_from_sun');
-            $table->integer('orbital_period');
+            $table->double('orbital_period');
             $table->boolean('ring');
 			$table->timestamps();
 		});
