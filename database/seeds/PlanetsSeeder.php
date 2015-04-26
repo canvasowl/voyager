@@ -12,6 +12,19 @@ class PlanetsSeeder extends Seeder {
             [
                 'name' => 'Mercury',
                 'diameter' => 4878,
+                'radius' => 6052,
+                'type' => 'terrestrial',
+                'gravity' => 8.87,
+                'distance_from_sun' => 108200000,
+                'orbital_period' => 0.62,
+                'ring' => 0,
+            ]);
+
+        // Venus
+        Planet::create(
+            [
+                'name' => 'Venus',
+                'diameter' => 1204,
                 'radius' => 2440,
                 'type' => 'terrestrial',
                 'gravity' => 3.7,
