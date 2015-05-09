@@ -24,3 +24,4 @@ Route::controllers([
  * Planet related routes
  */
 Route::get('/planets','PlanetController@index');
+Route::get('/planets/show/{id}','PlanetController@show');
