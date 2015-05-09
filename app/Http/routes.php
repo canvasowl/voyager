@@ -20,8 +20,12 @@ Route::controllers([
 	'password' => 'Auth\PasswordController',
 ]);
 
-/**
- * Planet related routes
- */
-Route::get('/planets','PlanetController@index');
-Route::get('/planets/show/{id}','PlanetController@show');
+
+Route::group( array('prefix' => "api/v1" ), function()
+{
+    // planets
+    Route::get('/planets','PlanetController@index');
+    Route::get('/planets/show/{id}','PlanetController@show');
+});
+
+
