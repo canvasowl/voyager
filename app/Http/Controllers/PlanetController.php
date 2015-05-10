@@ -31,7 +31,7 @@ class PlanetController extends Controller {
             $response = ['statusCode' => $statusCode, 'planet' => $planet];
         }catch (Exception $e){
             $statusCode = 404;
-            $error = ["error" => "Could not a planet."];
+            $error = ["error" => "Could not find a planet."];
             $response = ['statusCode' => $statusCode, 'error' => $error];
         }
         return $response;
