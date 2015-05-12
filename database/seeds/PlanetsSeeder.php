@@ -69,7 +69,46 @@ class PlanetsSeeder extends Seeder {
                 'gravity' => 2.64,
                 'distance_from_sun' => 778500000,
                 'orbital_period' => 11.86,
-                'ring' => yes,
-            ]);                    
+                'ring' => 1,
+            ]);   
+
+        // Saturn
+        Planet::create(
+            [
+                'name' => 'Saturn',
+                'diameter' => 9.44,
+                'radius' => 58232,
+                'type' => 'gas',
+                'gravity' => 0.93,
+                'distance_from_sun' => 1433000000,
+                'orbital_period' => 29.46,
+                'ring' => 1,
+            ]);  
+
+        // Uranus
+        Planet::create(
+            [
+                'name' => 'Uranus',
+                'diameter' => 4.007,
+                'radius' => 25362,
+                'type' => 'gas',
+                'gravity' => 0.89,
+                'distance_from_sun' => 2877000000,
+                'orbital_period' => 84.01,
+                'ring' => 1,
+            ]); 
+
+        // Neptune
+        Planet::create(
+            [
+                'name' => 'Neptune',
+                'diameter' => 3.883,
+                'radius' => 24622,
+                'type' => 'gas',
+                'gravity' => 1.12,
+                'distance_from_sun' => 4503000000,
+                'orbital_period' => 164.8,
+                'ring' => 1,
+            ]);                                                        
     }
 } 
