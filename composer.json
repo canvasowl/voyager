@@ -1,7 +1,7 @@
 {
-	"name": "laravel/laravel",
+	"name": "canvasowl/voyager",
 	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
+	"keywords": ["Api", "Space", "Planets"],
 	"license": "MIT",
 	"type": "project",
 	"require": {
