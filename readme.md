@@ -1,23 +1,23 @@
-## Laravel PHP Framework
+The Voyager Api
+===================
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+**V 1.0**
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+The Voyager Api is an open source **read only** Api that makes is easy for developers to use informations about our planets, universe, and other things that are out in the cosmos.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+The Voyager Api is built using the PHP framework Laravel V5
 
-## Official Documentation
+----------
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+Get Requests
+-------------
+To make a simple request to the api make a call to this endpoint
+http://thevoyagerapi.com/api/v1/planets/
 
-## Contributing
+Returning only 1 planet
+http://thevoyagerapi.com/api/v1/planets/show/1
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Get involved
+------------
+Want to help out?
+Fork the project make a pull request to the dev branch. Lets map out the universe together.
