@@ -1,10 +1,6 @@
 <html>
 	<head>
-		<title>Laravel</title>
-
-		<title>Voyager | The Space APi</title>
-
-		
+	    <title>Voyager | The Space APi</title>
 		<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
 
 		<style>
