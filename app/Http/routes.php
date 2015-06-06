@@ -23,9 +23,10 @@ Route::get('/', 'WelcomeController@index');
 
 Route::group( array('prefix' => "api/v1" ), function()
 {
-    // planets
+    // Planets
     Route::get('/planets','PlanetController@index');
-    Route::get('/planets/show/{id}','PlanetController@show');
+    Route::get('/planets/show/{id}/{property?}','PlanetController@show');
+
 });
 
 
